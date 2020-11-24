@@ -23,7 +23,8 @@ import { RouteViewerComponent } from './shared/route-viewer/route-viewer.compone
         RouterModule.forRoot(
             appRoutes,
             {
-                useHash: true
+                useHash: true,
+                relativeLinkResolution: 'legacy'
             }
         )
     ],
