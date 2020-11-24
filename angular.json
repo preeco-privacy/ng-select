@@ -145,11 +145,6 @@
           "options": {
             "tsConfig": "src/ng-option-highlight/tsconfig.lib.json",
             "project": "src/ng-option-highlight/ng-package.json"
-          },
-          "configurations": {
-            "production": {
-              "tsConfig": "src/ng-option-highlight/tsconfig.lib.prod.json"
-            }
           }
         },
         "test": {
